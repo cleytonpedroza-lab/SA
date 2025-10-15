@@ -1,0 +1,40 @@
+.seção_topo{
+    background-color: rgba(1, 6, 80, 0.822);
+    width: 100%;
+    height: 100px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 135px;
+    
+    
+}
+
+
+/* container de cada link*/
+.Navbar ul {
+    list-style-type: none;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* personalizar o link em si*/
+.Navbar a {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #ffffffef;
+    padding: 10px 15px;
+    margin-left: 45px;
+    transition: all 1s ease;
+    background-color: rgba(21, 23, 104, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.596);
+}
+
+
