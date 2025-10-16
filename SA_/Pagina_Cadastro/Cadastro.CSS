@@ -1,3 +1,6 @@
+body{
+    background-color: #d9d9d9;
+}
 .header{
     background-color: rgba(1, 6, 80, 0.822);
     width: 100%;
@@ -14,9 +17,6 @@
 }
 
 
-body{
-    background-color: rgb(182, 180, 180);
-}
 
 
 /* container de cada link*/
@@ -76,40 +76,80 @@ body{
     z-index: 5;
 }
 
-.Botao{
-    background-color: rgba(255, 255, 255, 0.849);
+.SignInContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.card {
+    background-color: #7995B2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 600px;
+    height: fit-content;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 0%;
+    color: #333;
+    font-size: 50px;
+}
+
+.card h5 {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 20px;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.card input {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card .btn {
+    background-color: #84C7AE;
     color: white;
     border: none;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.596);
-    transition: background-color 0.3s ease;
-    width: 190px;
-    height: 60px;
-    
-}
-.Seta{
-    width: 55px;
-    height: 55px;
-    margin-top: 1.5px;
-    margin-left: 65px;
-
 }
 
-.Botao_inteiro{
-    margin-top: -200px;
-    margin-left: 150px;
-    position: absolute; 
-    z-index: 10;
+.card .btn:hover {
+    background-color: #45a049;
 }
 
-.Texto_grande{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    margin-top: 150px;
-    margin-left: 100px;
-    position: absolute; 
-    z-index: 5;
+.card h3 a {
+    text-decoration: none;
 }
+
+
