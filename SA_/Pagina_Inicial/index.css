@@ -1,7 +1,6 @@
 .header{
     background-color: rgba(1, 6, 80, 0.822);
     width: 100%;
-    height: 100px;
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
@@ -9,12 +8,15 @@
     top: 0;
     left: 0;
     height: 135px;
-    
+    z-index: 0;
     
 }
 
 body{
     background-color: rgb(182, 180, 180);
+    z-index: 1;
+    width: 1920px;
+    height: auto;
 }
 
 
@@ -124,16 +126,11 @@ body{
 
 .Foto_Cachorro{
     width: 500px;
-    height: auto;
+    height: 500px;
     margin-top: 180px;
     margin-left: 550px;
     position: absolute; 
-    z-index: 5;
-    border: black 5px solid;
     border-radius: 100px;
-
-
-
 }
 
 
