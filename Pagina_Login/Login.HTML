@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.CSS">
+</head>
+<body>
+    
+    <div class="header">
+        <img src="/Imagens/Foto_pata.png" alt="" class="imagem_pequena_pata">
+        <h1 class="Titulo_pequeno">AdotPet</h1>
+        <nav class="Navbar">
+            <ul>
+                <li><a href="/Pagina_Inicial/index.HTML" class="botão_Index">Início</a></li>
+                <li><a href="/Pagina_Adoçao/adocao.HTML" class="Botao_Adoção">Adote</a></li>
+                <li><a href="/Pagina_Cadastro/Cadastro.HTML" class="Botao_Cadastro">Cadastro</a></li>
+                <li><a href="/Pagina_Login/Login.HTML" class="Botao_Login">Login</a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="LogInContainer">
+        <div class="card">
+            <h2>Entre</h2>
+            <form action="#" method="POST">
+            
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+            
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+            
+                <button type="button" class="btn">Entrar</button>
+            </form>
+
+                <h3>Não possui uma conta? <a href="/Pagina_Cadastro/Cadastro.HTML">Cadastre-se</a></h3>
+
+        </div>
+    </div>
+    <script src="/Pagina_Login/Login.JS"></script>
+</body>
+</html>
